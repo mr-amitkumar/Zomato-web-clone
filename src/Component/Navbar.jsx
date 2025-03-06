@@ -151,11 +151,9 @@ const GridImg = styled.img`
 `;
 // styling for the colection parts of the zomato
 const MakeCollection = styled.div`
-dispaly:flex;
-justify-content:center;.
-flex-direction:row;
+display:flex;
+flex-direction:column;
 height:500px;
-align-items:center;
 `;
 const CollectionHead = styled.h4`
   font-size: 45px;
@@ -267,10 +265,10 @@ const Navbar = () => {
 
           <HeadNav>
             <NavMenu>
-              <StyledLink to="/investor">Investor Relations</StyledLink>
-              <StyledLink to="#">Restaurant Section</StyledLink>
-              <StyledLink to="#">About</StyledLink>
-              <StyledLink to="#">Contact-Info</StyledLink>
+              <StyledLink to="/">Investor Relations</StyledLink>
+              <StyledLink to="/restaurant">Restaurant Section</StyledLink>
+              <StyledLink to="/about">About</StyledLink>
+              <StyledLink to="/contact">Contact-Info</StyledLink>
             </NavMenu>
           </HeadNav>
         </MainHeader>
