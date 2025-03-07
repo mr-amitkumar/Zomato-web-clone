@@ -46,7 +46,7 @@ const Navbar = () => {
       <Main>
         <MainHeader>
           <Heading>
-            <StyledLink to="#" style={{ marginRight: "30px" }}>
+            <StyledLink to="https://www.zomato.com/mobile" style={{ marginRight: "30px" }}>
               Get The App
             </StyledLink>
           </Heading>
